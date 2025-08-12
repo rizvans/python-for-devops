@@ -107,11 +107,17 @@ pip install virtualenv
 # Create a virtual environment
 python -m venv myenv
 
+# to list the folders
+ls -ltr or ls
+
 # Activate the virtual environment (on Windows)
 myenv\Scripts\activate
 
 # Activate the virtual environment (on macOS/Linux)
 source myenv/bin/activate
+
+# to come out of the virtual environment
+deactivate
 ```
 
 Once activated, you work in an isolated workspace with its Python interpreter and library dependencies.
